@@ -1,0 +1,11 @@
+Commands used:
+ 
+ 
+To download config.cfg file :-python3 -m spacy init config config.cfg --lang en --pipeline ner --optimize efficiency
+
+
+to Train our custom file :- python3 -m spacy train config.cfg --output ./ --paths.train traindata.spacy --paths.dev ./traindata.spacy
+
+after trainning model will be saved called model-best 
+load that model and test.
+
